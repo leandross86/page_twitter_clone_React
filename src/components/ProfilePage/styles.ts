@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
-import { LocationOn, Cake,  } from '../../components/styles/icons'
+import { LocationOn, Cake  } from '../../components/Styles/icons';
+import Button from '../Button';
   
 export const Container  = styled.div`
     display: flex;
@@ -76,7 +77,7 @@ export const ProfileData  = styled.div`
 const iconCSS = css`
     width: 20px;
     height: 20px;
-    color: var(--gray)
+    color: var(--gray);
 `;
 
 export const LocationIcon  = styled(LocationOn)`${iconCSS}`; 
@@ -95,3 +96,16 @@ export const Followage  = styled.div`
         }
     }
 `; 
+export const EditButtom = styled(Button)`
+    position: absolute;
+    top: 2vw;
+    right: 7px;
+    padding: 4px 16px;
+    font-size: 13px;
+
+    @media (min-width: 320px) {
+        top: 10px;
+        padding: 10px 19px;
+        font-size: 15px;
+    }
+`;

@@ -5,7 +5,7 @@ import {
   Search,
   Notifications,
   Email,
-} from '../../components/styles/icons';
+} from '../../components/Styles/icons';
 
 export const Container = styled.div`
   display: flex;

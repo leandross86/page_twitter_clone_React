@@ -1,7 +1,7 @@
 import React from 'react';
 
-import GlobalStyles from './components/styles/GlobalStyles'
-import Layout from './components/layout'
+import GlobalStyles from './components/Styles/GlobalStyles'
+import Layout from './components/Layout'
 
 function App() {
   return (
