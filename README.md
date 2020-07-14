@@ -23,7 +23,7 @@
 * Utilizar os conceitos aprendidos em ReactJS;
 
 
----
+
 
 ## 📝Sobre
 
@@ -45,11 +45,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
  
  [<img src="https://img.icons8.com/plasticine/38/000000/react.png"/>](https://pt-br.reactjs.org//)
  
----
+
 
 ## 🔎Para visualizar
 
-### https://twitter-clone01.netlify.app/
+#### https://twitter-clone01.netlify.app/
+
 
 ## 📁Como baixar o projeto
 
@@ -71,8 +72,6 @@ Iniciar a aplicação
 $ yarn start
 ```
 
-
----
 
 ## 🤝Créditos
 
